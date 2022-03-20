@@ -2,12 +2,9 @@ package ru.netcracker.multithreading;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions.*;
 import ru.netcracker.multithreading.exceptions.MismatchedMatricesException;
 
 import java.util.Objects;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MatrixMultiplicationTest {
     double[][] firstArr = new double[][]{

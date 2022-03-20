@@ -15,11 +15,6 @@ public class MatrixMultiplication {
         result = new double[matrix1.getRowsAmt()][matrix2.getColsAmt()];
     }
 
-    public static void main(String[] args) {
-
-
-    }
-
     public Matrix multiplyMatrices() throws MismatchedMatricesException {
         double[][] matrix2Cols = matrix2.getCols();
         if (matrix1.getColsAmt() != matrix2.getRowsAmt()) {
